@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'pages/dashboard_page.dart';
 import 'pages/login_page.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 
 void main() {
@@ -16,7 +17,9 @@ class MyApp extends StatelessWidget {
      // home:DashboardPage(),
       themeMode: ThemeMode.light,
       theme: ThemeData(
-        primarySwatch: Colors.orange
+        primarySwatch: Colors.orange,
+        primaryTextTheme: GoogleFonts.lancelotTextTheme()
+
       ),
       initialRoute: '/',
       routes: {
